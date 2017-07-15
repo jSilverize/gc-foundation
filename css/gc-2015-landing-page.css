@@ -1,0 +1,246 @@
+/* 
+    Created on : 07/08/2015, 18:07:22
+    Author     : jSilverize
+*/
+
+@media(max-width: 767px) {
+  #menuLandingPage .navbar-header .navbar-brand {
+    visibility: visible;
+  }
+  .capa-pagina .capa-logo {
+    display: block;
+    margin: 15px auto !important;
+  }
+}
+@media(min-width: 768px) {
+  #menuLandingPage .navbar-nav li a {
+    padding: 15px;
+  }
+  #menuLandingPage.affix-top {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-bottom: 1px solid #e7e7e7 !important;
+  }
+  #menuLandingPage.affix {
+    border-bottom: 0px !important;
+  }
+  #menuLandingPage .navbar-nav li a {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .capa-pagina .capa-logo {
+    float: left;
+    margin: 15px 20px 0px 15px;
+  }
+}
+@media(min-width: 992px) {
+  .capa-pagina .capa-logo {
+    float: left;
+    margin: -5px 20px 0px 15px;
+  }
+}
+#menuLandingPage {
+  z-index: 995;
+}
+#menuLandingPage.affix {
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+#menuLandingPage .navbar-header .navbar-brand {
+  font-weight: bold;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+#menuLandingPage .navbar-header .navbar-brand-icon {
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin-top: -10px;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 50%;
+}
+#menuLandingPage .navbar-header .navbar-brand-empresa {
+  float: left;
+  font-weight: normal;
+  font-size: 11px;
+  margin-top: -6px;
+}
+header {
+  margin-top: 0px !important;
+}
+.capa-pagina .capa-logo {
+  width: 125px;
+  height: 125px;
+}
+#navbar-lp-container {
+  height: 71px;
+}
+.lp-huge-text {
+  padding: 39px 0 40px;
+  border-top: 1px solid #e7e7e7;
+}
+.lp-huge-text h1 {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section h1:first-of-type {
+  margin-bottom: 25px;
+}
+section h1:first-of-type small {
+  display: block;
+  margin-top: 5px;
+}
+.card-catalog:hover,
+.card-catalog:focus,
+.card-catalog:active {
+  text-decoration: none !important;
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+.card-catalog {
+  display: block;
+  background-color: #FFFFFF;
+  color: #444444;
+  margin: 57.5px 10px 15px 10px;
+  padding: 0px 0px 5px 0px;
+  border-radius: 4px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  box-shadow: 1px 1px 4px #ccc;
+}
+.card-catalog-icon {
+  height: 75px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-image: url('/images/cover-path.svg');
+  background-size: 100%;
+}
+.card-catalog-icon img {
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 4px #ccc;            
+  left: calc(50% - 115px / 2);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  margin-top: -57.5px;
+}
+
+.card-catalog-title {
+  height: 70px;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+
+.card-catalog-description {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 300;
+  padding: 0px 10px 15px 10px;
+}
+blockquote .label {
+  padding: 4px 5px 4px 3px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  display: block;
+  width: 120px;
+}
+blockquote p {
+  margin-bottom: 3px;
+}
+blockquote footer {
+  padding: 0px;
+  min-height: 20px;
+  font-size: 15px;
+}
+
+blockquote small {
+  display: inline-block;
+  cursor: help;
+}
+blockquote footer em {
+  display: block;
+  padding-left: 22px;
+}
+.capa-fullscreen {
+  min-height: 450px !important;
+}
+.capa-fullscreen.vertical-centralize .vegas-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#map-canvas {
+  width: 100%; 
+  height: 325px;
+  margin: 0;
+  padding: 15px;
+}
+
+
+.register-card-title {
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+}
+.register-card-title small,
+.register-card-price h1 small {
+  display: block;
+  margin-top: 5px;
+}
+.register-card-price {
+  padding: 15px 0px;
+}
+.register-card-price h1 small {
+  font-size: 50%;
+}
+.register-card-bottom {
+  padding: 10px 0px 0px 0px;
+}
+.register-card-bottom h1,
+.register-card-bottom h2,
+.register-card-bottom h3,
+.register-card-bottom h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-horizontal legend {
+  padding-bottom: 10px;
+}
+.form-horizontal .control-label {
+  padding-top: 3px !important;
+}
+.form-horizontal .control-label[for] {
+  cursor: pointer;
+}
+.form-horizontal .control-label[for]:hover {
+  opacity: 0.75;
+}

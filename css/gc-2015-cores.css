@@ -1,0 +1,312 @@
+/*
+    Created on : 28/01/2015, 17:42:05
+    Author     : jsilverize
+*/
+
+.text-bran,
+ul.bran li:before {
+  color: #FFFFFF;
+}
+
+.text-cinz,
+ul.cinz li:before  {
+  color: #AAAAAA;
+}
+
+.text-pret,
+ul.pret li:before  {
+  color: #1C1C1C;
+}
+
+.text-amar,
+ul.amar li:before {
+  color: #FFB819;
+}
+
+.text-lara,
+ul.lara li:before  {
+  color: #FF5000;
+}
+
+.text-verm,
+ul.verm li:before {
+  color: #DE0028;
+}
+
+.text-orcl,
+ul.orcl li:before {
+  color: #BF0411;
+}
+
+.text-azul,
+ul.azul li:before {
+  color: #005490;
+}
+
+.text-andr,
+ul.andr li:before {
+  color: #0096DA;
+}
+
+.text-verd,
+ul.verd li:before {
+  color: #25d890;
+}
+
+.text-vinh,
+ul.vinh li:before {
+  color: #49182D;
+}
+
+
+.bg-bran {
+  background-color: #FFFFFF;
+}
+
+.bg-cinz-claro {
+  background-color: #F7F7F7;
+  color: #333;
+}
+
+.bg-cinz {
+  background-color: #AAAAAA;
+}
+
+.bg-cinz-escuro {
+  background-color: #555555;
+  color: #FFF;
+}
+
+.bg-pret {
+  background-color: #1C1C1C;
+}
+
+.bg-amar {
+  background-color: #FFB819;
+}
+
+.bg-lara {
+  background-color: #FF5000;
+}
+
+.bg-verm {
+  background-color: #DE0028;
+}
+
+.bg-orcl {
+  background-color: #BF0411;
+}
+
+.bg-azul {
+  background-color: #005490;
+}
+
+.bg-andr {
+  background-color: #0096DA;
+}
+
+.bg-verd {
+  background-color: #00A160;
+}
+
+.bg-vinh {
+  background-color: #5F273F;
+}
+
+.bg-pret, .bg-lara, .bg-verm, .bg-orcl, .bg-azul, .bg-andr, .bg-verd, .bg-vinh {
+  color: #ffffff;
+}
+
+.bg-pret small, .bg-lara small, .bg-verm small, .bg-orcl small,
+.bg-azul small, .bg-andr small, .bg-verd small, .bg-vinh small {
+  color: #e7e7e7;
+}
+
+
+.btn-bran {
+  background-color: #FFFFFF;
+  color: #777;
+}
+.btn-bran:hover {
+  background-color: #e7e7e7;
+  color: #333;
+}
+
+.btn-cinz {
+  background-color: #AAAAAA;
+  color: #fff;
+}
+.btn-cinz:hover {
+  background-color: #888;
+  color: #eee;
+}
+
+.btn-pret {
+  background-color: #1C1C1C;
+  border-color: rgba(255,255,255,0.2) !important;
+}
+.btn-pret:hover {
+  background-color: #333333;
+  color: #fff;
+}
+
+.btn-amar {
+  background-color: #FFB819;
+}
+.btn-amar:hover {
+  background-color: #E8AC23;
+}
+
+.btn-lara {
+  background-color: #FF5000;
+}
+.btn-lara:hover {
+  background-color: #DF821E;
+}
+
+.btn-verm {
+  background-color: #DE0028;
+}
+.btn-verm:hover {
+  background-color: #AB0C28;
+}
+
+.btn-orcl {
+  background-color: #BF0411;
+}
+.btn-orcl:hover {
+  background-color: #9E1821;
+}
+
+.btn-azul {
+  background-color: #005490;
+}
+.btn-azul:hover {
+  background-color: #0F4A73;
+}
+
+.btn-andr {
+  background-color: #0096DA;
+}
+.btn-andr:hover {
+  background-color: #0079B0;
+}
+
+.btn-verd {
+  background-color: #00A160;
+}
+.btn-verd:hover {
+  background-color: #00693F;
+}
+
+.btn-vinh {
+  background-color: #5F273F;
+  border-color: rgba(255,255,255,0.2);
+}
+.btn-vinh:hover {
+  background-color: #49182D;
+}
+
+.btn-pret,
+.btn-amar, .btn-lara,
+.btn-verm, .btn-orcl,
+.btn-azul, .btn-andr,
+.btn-verd, .btn-vinh {
+  color: #FFFFFF;
+}
+
+.btn-pret:hover,
+.btn-amar:hover, .btn-lara:hover,
+.btn-verm:hover, .btn-orcl:hover,
+.btn-azul:hover, .btn-andr:hover,
+.btn-verd:hover, .btn-vinh:hover {
+  color: #F2F2F2;
+}
+
+
+.link-amar {
+  color: #FFB819;
+}
+.link-amar:hover {
+  color: #E8AC23;
+}
+
+.link-lara {
+  color: #FF5000;
+}
+.link-lara:hover {
+  color: #DF821E;
+}
+
+.link-verm {
+  color: #DE0028;
+}
+.link-verm:hover {
+  color: #D01032;
+}
+
+.link-orcl {
+  color: #BF0411;
+}
+.link-orcl:hover {
+  color: #9E1821;
+}
+
+.link-azul {
+  color: #005490;
+}
+.link-azul:hover {
+  color: #0F4A73;
+}
+
+.link-andr {
+  color: #0096DA;
+}
+.link-andr:hover {
+  color: #0096DA;
+}
+
+.link-verd {
+  color: #00A160;
+}
+.link-verd:hover {
+  color: #00A160;
+}
+
+.link-vinh {
+  color: #5F273F;
+  border-color: rgba(255,255,255,0.2);
+}
+.link-vinh:hover {
+  color: #49182D;
+}
+
+
+ul.amar,
+ul.lara,
+ul.verm,
+ul.orcl,
+ul.andr,
+ul.azul,
+ul.verd,
+ul.vinh,
+ul.pret,
+ul.cinz {
+  list-style: none !important;
+}
+
+ul.amar li:before,
+ul.lara li:before,
+ul.verm li:before,
+ul.orcl li:before,
+ul.andr li:before,
+ul.azul li:before,
+ul.verd li:before,
+ul.vinh li:before,
+ul.pret li:before,
+ul.cinz li:before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  content: "\f054";
+  padding-right: 5px;
+}
