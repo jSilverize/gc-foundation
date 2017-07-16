@@ -42,24 +42,53 @@
               font-size: 55px;
             }
           }
+
+          @media (min-width: 1080px) {            
+            .mission-img {
+              margin: -50px 0;
+            }
+          }
           .capa-foundation .container h1 small,
           .capa-foundation .container-fluid h1 small {
             font-size: 55%;
             text-shadow: 0px 0px 5px;
           }
           .capa-foundation img {
-            width: 150px;
+            width: 350px;
           }
           .vegas-timer-progress {
             background-color: #FF5000;
           }
-          .treinamento-categoria {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            border-top: 1px solid #e7e7e7;
+          #menuLandingPage .navbar-header .navbar-brand {
+            color: transparent;
+            background-image: url("/img/logo-globalcode-foudation-02-fundo-branco-cinza-claro-texto.png");
+            background-size : 125px;
+            background-position: 15px center;
+            background-repeat: no-repeat;
           }
-          .treinamento-categoria-map {
-            padding: 4px 0px 5px 0px;
+          #menuLandingPage .navbar-header .navbar-brand-icon {
+            display: none;
+          }
+          .lp-huge-text {
+            padding: 80px 0;
+            background-color   : grey;
+            background-size    : cover;
+            background-repeat  : no-repeat;
+            background-position: center;
+            background-image   : url("/img/fotos/foundation/horizon.jpg");
+          }
+          .lp-huge-text h1 {
+            color: #ffffff;
+          }
+          .modulo .media-object {
+            max-width: 80px;
+          }
+          .modulo .media-body {
+            vertical-align: middle;
+          }
+          .rd-form-container {
+            margin   : 0 auto;
+            max-width: 620px;
           }
         </style>
 
@@ -417,15 +446,13 @@
         </div>
       </nav>
 
-        <header class="capa-pagina capa-foundation bg-lara box-shadow-header cover-generic capa-fullscreen vertical-centralize">
+        <header class="capa-pagina capa-foundation bg-pret box-shadow-header cover-generic capa-fullscreen vertical-centralize">
 
           <div class="container text-center">
 
-            <img class="img-responsive center-block" src="/img/icones/icone_foundation.svg" alt="Foundation" />
+            <img class="img-responsive center-block" src="/img/logo-globalcode-foudation-02-fundo-preto-cinza-escuro.png" alt="Foundation" />
 
             <h1 class="text-uppercase text-bran">
-              Foundation
-              <br />
               <small>
               	Primeiro método nacional de ensino e programação livre!
               </small>
@@ -473,7 +500,10 @@
         </div>
 
 
-        <section id="sobre" data-menu-text="SOBRE" data-menu-title="Entenda o Foundation">
+        <section id="sobre"
+                 data-menu-text="SOBRE"
+                 data-menu-title="Entenda o Foundation"
+                 class="bg-cinz-claro">
 
           <div class="container">
 
@@ -481,9 +511,6 @@
             	<span class="text-muted">
                 Propósito Educacional
               </span>
-              <strong>
-              	Global<span class="text-lara">code</span> Foundation
-              </strong>
               <small>
                 Transformar o
                 <span class="text-lara">complexo</span> e
@@ -560,24 +587,9 @@
 
         </section>
 
-        <div class="lp-huge-text">
-
-          <div class="container">
-
-            <div class="text-center">
-
-              <h1>
-                Ensinando a Ensinar!
-              </h1>
-
-            </div>
-
-          </div>
-
-        </div>
-
-
-        <section class="bg-cinz-claro" id="gratuito" data-menu-text="GRATUITO" data-menu-title="">
+        <section id="gratuito"
+                 data-menu-text="GRATUITO"
+                 data-menu-title="">
 
           <div class="container">
 
@@ -656,30 +668,24 @@
 
           </div>
 
+          <div class="padding-top-20 text-center">
+            <a class="btn btn-lg btn-lara go-to-by-scroll"
+               href="#crowdfunding">
+              ESTÁ INTERESSADO?
+            </a>
+          </div>
+
         </section>
 
-        
-        <div class="treinamento-categoria">
+        <div class="lp-huge-text">
 
           <div class="container">
 
-            <div class="row">
+            <div class="text-center">
 
-              <div class="col-md-7 col-sm-6">
-
-                <div class="treinamento-categoria-map">
-
-                  Treinamentos
-                  /
-                  <strong>
-                    Foundation
-                  </strong>
-
-                </div>
-
-                <div class="margens-5 hidden-lg hidden-md"></div>
-
-              </div>
+              <h1>
+                Ensinando a Ensinar!
+              </h1>
 
             </div>
 
@@ -687,7 +693,10 @@
 
         </div>
 
-        <section id="cursos" data-menu-text="CURSOS" data-menu-title="Ensinando a Ensinar" class="bg-cinz-claro">
+        <section id="cursos"
+                 data-menu-text="CURSOS"
+                 data-menu-title="Ensinando a Ensinar"
+                 class="bg-cinz-claro">
 
           <div class="container">
 
@@ -700,101 +709,260 @@
               </small>
             </h1>
 
-            <div class="row">
-
-              <div class="col-md-4 col-sm-6 padding-top-20">
-
-                <a class="card-catalog infos-workshop text-center link-amar"
-                   id="code4kids"
-                   title="Mais detalhes sobre o Code4Kids"
+            <div>
+              <h3>
+                <a class="link-verd"
+                   title="Mais detalhes do Code4Kids"
                    href="/treinamentos/code4kids">
-
-                  <div class="card-catalog-icon bg-amar">
-
-                    <img src="/img/icones/icone_code4kids.svg"
-                         alt="Code4Kids" />
-
-                  </div>
-
-                  <div class="card-catalog-title vertical-centralize">
-                    Code4Kids
-                    <small>
-                      A partir de 7 anos
-                    </small>
-                  </div>
-
-                  <div class="card-catalog-description">
-                    Cursos de curta duração com laboratórios práticos
-                    para introduzir a garotada no universo por trás da
-                    tecnologia.
-                  </div>
-
+                  Code4Kids
                 </a>
+                <br />
+                <small>
+                  Introduzir a garotada no universo da tecnologia. A partir de 7 anos
+                </small>
+              </h3>
+
+              <div class="row">
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object img-circle"
+                           src="http://www.globalcode.com.br/img/logos/code4kids/code4kids_workshop-scratch.jpg"
+                           alt="Scratch" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Programação com Scratch
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object img-circle"
+                           src="http://www.globalcode.com.br/img/logos/code4kids/code4kids_workshop-minecraft.jpg"
+                           alt="Minecraft" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Minecraft Modding
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object img-circle"
+                           src="http://www.globalcode.com.br/img/logos/code4kids/code4kids_workshop-arduino-e-robotica.jpg"
+                           alt="Arduino" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Arduino e Robótica
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object img-circle"
+                           src="http://www.globalcode.com.br/img/logos/code4kids/code4kids_workshop-google-coder.jpg"
+                           alt="Coder" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Websites com Google Coder
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object img-circle"
+                           src="http://www.globalcode.com.br/img/logos/code4kids/code4kids_workshop-app-inventor.jpg"
+                           alt="App Inventor" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        App Inventor
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object img-circle"
+                           src="http://www.globalcode.com.br/img/logos/code4kids/code4kids_workshop-empreendedorismo.jpg"
+                           alt="Empreendedorismo" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Empreendedorismo
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
 
               </div>
+            </div>
 
-              <div class="col-md-4 col-sm-6 padding-top-20">
-
-                <a class="card-catalog infos-workshop text-center link-amar"
-                   id="academia-do-programador"
+            <div class="padding-top-20">
+              <h3>
+                <a class="link-amar"
                    title="Mais detalhes da Academia do Programador"
                    href="/treinamentos/carreiras/academia-do-programador">
-
-                  <div class="card-catalog-icon bg-amar">
-
-                    <img src="https://s3-sa-east-1.amazonaws.com/globalcodebrasil/img/logos/logo-AP-200x200.png"
-                         alt="Academia do Programador" />
-
-                  </div>
-
-                  <div class="card-catalog-title vertical-centralize">
-                    Academia do Programador
-                    <small>
-                      A partir de 12 anos
-                    </small>
-                  </div>
-
-                  <div class="card-catalog-description">
-                    Os fundamentos e teorias necessárias para desenvolve
-                    softwares de diferentes tipos profissionalmente.
-                  </div>
-
+                  Academia do Programador
                 </a>
+                <br />
+                <small>
+                  80 horas de treinamento, para pessoas a partir de 12 anos
+                </small>
+              </h3>
+
+              <div class="row">
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object"
+                           src="http://s3-sa-east-1.amazonaws.com/globalcodebrasil/img/logos/logo-AP1-100x100.png"
+                           alt="AP1" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Lógica de Programação com Java e Arduino
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object"
+                           src="http://s3-sa-east-1.amazonaws.com/globalcodebrasil/img/logos/logo-AP2-100x100.png"
+                           alt="AP2" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Hardware e Sistemas Operacionais
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object"
+                           src="http://s3-sa-east-1.amazonaws.com/globalcodebrasil/img/logos/logo-AP3-100x100.png"
+                           alt="AP3" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Banco de Dados com MySQL
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object"
+                           src="http://s3-sa-east-1.amazonaws.com/globalcodebrasil/img/logos/logo-AP4-100x100.png"
+                           alt="AP4" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Redes e Internet
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 padding-top-20">
+
+                  <div class="media modulo">
+                    <div class="media-left media-middle">
+                      <img class="media-object"
+                           src="http://s3-sa-east-1.amazonaws.com/globalcodebrasil/img/logos/logo-AP5-100x100.png"
+                           alt="AP5" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Desenvolvimento da Prática
+                      </h4>
+                    </div>
+                  </div>
+
+                </div>
 
               </div>
+            </div>
 
-              <div class="col-sm-3 hidden-xs hidden-md hidden-lg"></div>
+            <div class="padding-top-20">
 
-              <div class="col-md-4 col-sm-6 padding-top-20">
+              <h3>
+                Code4Makers
+                <br />
+                <small>
+                  Eletrônica, Robótica e Arduino. A partir de 12 anos
+                </small>
+              </h3>
 
-                <a class="card-catalog infos-workshop text-center link-pret"
-                   id="code4makers"
-                   title="Mais detalhes do Code4Makers"
-                   href="#code4makers-modal"
-                   data-toggle="modal"
-                   data-target="#code4makers-modal"
-                   data-height="500">
+              <div class="row">
 
-                  <div class="card-catalog-icon bg-pret">
+                <div class="col-xs-6 col-sm-3 padding-top-20 text-center-xs">
+                  <img src="http://www.globalcode.com.br/img/logos/eletronica/sem/eletronica_v_g.png"
+                       alt="Introdução a Eletrônica" />
+                </div>
 
-                    <img src="/img/icones/icone_eletronica.svg"
-                        alt="Code4Makers" />
+                <div class="col-xs-6 col-sm-3 padding-top-20 text-center-xs">
+                  <img src="http://www.globalcode.com.br/img/logos/eletronica/sem/el_comp_v_g.png"
+                       alt="Computação Física com Arduino" />
+                </div>
 
-                  </div>
+                <div class="col-xs-6 col-sm-3 padding-top-20 text-center-xs">
+                  <img src="http://www.globalcode.com.br/img/logos/eletronica/sem/el_robotica_v_g.png"
+                       alt="Robótica com Arduino" />
+                </div>
 
-                  <div class="card-catalog-title vertical-centralize">
-                    Code4Makers
-                    <small>
-                      A partir de 12 anos
-                    </small>
-                  </div>
-
-                  <div class="card-catalog-description">
-                    Eletrônica, Robótica, Arduino e mais!
-                    Cursos Técnicos, com diversos laboratórios práticos com 80 horas de aulas.
-                  </div>
-
-                </a>
+                <div class="col-xs-6 col-sm-3 padding-top-20 text-center-xs">
+                  <img src="http://www.globalcode.com.br/img/logos/eletronica/sem/logo_motores_com_arduino_v_g.png"
+                       alt="Controlando Motores com Arduino" />
+                </div>
 
               </div>
 
@@ -805,36 +973,55 @@
         </section>
 
 
-        <section id="missoes" data-menu-text="MISSÕES" data-menu-title="Objetivos do Foundation">
+        <section id="missoes"
+                 data-menu-text="MISSÕES"
+                 data-menu-title="Objetivos do Foundation">
 
           <div class="container">
 
-            <h1>
-              <strong>
-                Missões
-              </strong>
-              <small>
-                Plano e objetivos para 2017/2018
-              </small>
-            </h1>
+            <div class="row">
 
-            <ul class="lead">
-              <li>
-                Formar 500 professores de programação habilitados
-              </li>
-              <li>
-                Inclusão digital avançada para pessoas de baixa renda
-              </li>
-              <li>
-                Aumentar continuamente a diversidade na área de programação
-              </li>
-            </ul>
+              <div class="col-xs-12 col-md-7">
+                
+                <h1>
+                  <strong>
+                    Missões
+                  </strong>
+                  <small>
+                    Plano e objetivos para 2017/2018
+                  </small>
+                </h1>
+
+                <ul class="lead">
+                  <li>
+                    Formar 500 professores de programação habilitados
+                  </li>
+                  <li>
+                    Inclusão digital avançada para pessoas de baixa renda
+                  </li>
+                  <li>
+                    Aumentar continuamente a diversidade na área de programação
+                  </li>
+                </ul>
+
+              </div>
+
+              <div class="col-xs-12 col-md-5 hidden-sm">
+                <img class="img-responsive img-rounded mission-img"
+                     src="http://www.globalcode.com.br/img/fotos/code4kids/devoxx4kids-2015_01.jpg"
+                     alt="Crianças Programando" />
+              </div>
+
+            </div>
 
           </div>
 
         </section>
 
-        <section id="crowdfunding" data-menu-text="PATROCINE" data-menu-title="Participe dessa iniciativa" class="bg-cinz-claro">
+        <section id="crowdfunding"
+                 data-menu-text="PATROCINE"
+                 data-menu-title="Participe dessa iniciativa"
+                 class="bg-cinz-claro">
 
           <div class="container">
 
@@ -891,6 +1078,8 @@
                 </div>
 
               </div>
+
+              <div class="col-sm-3 hidden-xs hidden-md hidden-lg"></div>
               
               <div class="col-lg-4 col-md-4 col-sm-6">
 
@@ -914,8 +1103,8 @@
               </div>              
 
             </div>
-            
-            <div style="padding: 20px 0;"></div>
+
+            <div class="rd-form-container" id="quero-receber-informacoes-globalcode-foundation-4bd55030c7405b716bbc"></div>
 
             <div class="row">
 
@@ -1228,52 +1417,7 @@
     <script type="text/javascript" src="/js/gc-2015-bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/gc-2015-globalscript.js"></script>
     <script type="text/javascript" src="/js/funcoesValidaMember.js"></script>
-        <script type="text/javascript" src="/js/gc-2015-landing-page.js"></script>
-
-        
-        <div class="modal fade" id="code4makers-modal" tabindex="-1" role="dialog" aria-labelledby="code4makersLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                  <i class="fa fa-fw fa-times"></i>
-                </button>
-                <h1 class="modal-title">
-                  Code4Makers
-                  <br class="visible-xs" />
-                  <small id="code4makersLabel">
-                    Método Inovador
-                  </small>
-                </h1>
-              </div>
-              <div class="modal-body" id="code4makersBody" style="transition: .5s; -webkit-transition: .5s;">
-                <p class="lead">
-                  Motivação em primeiro lugar!
-                </p>
-                <p class="lead">
-                  Utilizamos e praticamos:
-                </p>
-                <ul class="lead">
-                  <li>
-                    Smartphones
-                  </li>
-                  <li>
-                    Programas no Computador
-                  </li>
-                  <li>
-                    Resultados em Redes Sociais
-                  </li>
-                  <li>
-                    Computação Física
-                  </li>
-                  <li>
-                    Robótica
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>        
+        <script type="text/javascript" src="/js/gc-2015-landing-page.js"></script>      
 
         <script type="text/javascript" src="/js/gc-2015-jquery-vegas.min.js"></script>
 
@@ -1292,7 +1436,12 @@
 
           });
 
-        </script>    
+        </script>
+
+        <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+        <script type="text/javascript">
+          new RDStationForms('quero-receber-informacoes-globalcode-foundation-4bd55030c7405b716bbc-html', 'UA-5979351-1').createForm();
+        </script>
     <script>
       (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;

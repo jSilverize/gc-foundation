@@ -11,6 +11,9 @@
     display: block;
     margin: 15px auto !important;
   }
+  .text-center-xs {
+    text-align: center;
+  }
 }
 @media(min-width: 768px) {
   #menuLandingPage .navbar-nav li a {
